@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form Creation</title>
+    </head>
+    <body>
+        <h1>Form Creation</h1>
+        <form>
+            <fieldset>
+                <legend>Personalia: </legend>
+            <div>
+                <label for="name">Name: </label>
+                <select name="name" id="name">
+                    <option>Mr.</option>
+                    <option>Mrs.</option>
+                    <option>Miss</option>
+                </select>
+                <input type="text" name="name" id="name">
+            </div>
+            <br>
+            <div>
+                <label for="img">Profile Pic: </label>
+                <input type="file" name="img" id="img">
+            </div>
+            <br>
+            <div>
+                <label for="pnumber">Phone Number: </label>
+                <input type="number" name="Phoneno" id="pnumber">
+            </div>
+            <br>
+            <div>
+                <label for="age">Age: </label>
+                <input type="range" name="age" id="age">
+            </div>
+            </fieldset>
+            <br>
+            <div>
+                <label for="col">Favorite color: </label>
+                <input type="color" name="col" id="col">
+            </div>
+            <br>
+            <div>
+                <label for="email">E-mail: </label>
+                <input type="email" name="email" id="email">
+            </div>
+            <br>
+            <div>
+                <label for="pass">Password: </label>
+                <input type="password" name="pass" id="pass">
+            </div>
+            <br>
+            <div>
+                <label for="dob">Date of Birth: </label>
+                <input type="date" name="dob" id="dob">
+            </div>
+            <br>
+            <div>
+                <label for="tme">Time: </label>
+                <input type="time" name="time" id="tme">
+            </div>
+            <br>
+            <div>
+                <label for="gen">Gender: </label>
+                <input type="radio" name="gen" id="gen" checked>Male
+                <input type="radio" name="gen" id="gen">Female
+                <input type="radio" name="gen" id="gen">Other
+            </div>
+            <br>
+            <div>
+                <label for="link">LinkedIn: </label>
+                <input type="url" name="=link" id="link">
+            </div>
+            <br>
+            <div>
+                <label for="elg">Are you Eligible ?: </label>
+                <input type="radio" name="elg" id="elg" checked>Yes
+                <input type="radio" name="elg" id="elg">No
+            </div>
+            <br>
+            <div>
+                <label for="lan">Languages: </label>
+                <input type="checkbox" name="py" id="lan">Python
+                <input type="checkbox" name="java" id="lan">Java
+            </div>
+            <br>
+                <label for="way">Write about yourself: </label>
+            <div>
+                <textarea name="way" id="way" cols="40" rows="10"></textarea>
+            </div>
+            <br>
+            <div>
+                <label for="car">Select Car: </label>
+                <select name="car" id="car">
+                    <optgroup label="Indian">
+                        <option>Tata Hexan</option>
+                        <option>Mahindra XUV</option>
+                    </optgroup>
+                    <optgroup label="German Cars">
+                        <option value="mercedes">Mercedes</option>
+                        <option value="audi">Audi</option>
+                    </optgroup>
+                </select>
+            </div>
+            <br>
+            <div>
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset">
+            </div>
+        </form>
+    </body>
+    </html>
