@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Registration Form</title>
+</head>
+<body>
+    <form action="">
+        <fieldset>
+            <legend><b>Registration Form</b></legend><br>
+            <div>
+                <label for="name">Name: </label>
+                <select>
+                    <option>Mr.</option>
+                    <option>Mrs.</option>
+                    <option>Ms.</option>
+                </select>
+                <input type="text" name="name" id="name" placeholder="Enter name">
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                <label for="img">Profile pic: </label>
+                <input type="file" name="img" id="img">
+            </div><br>
+            <div>
+                <label for="em">E-mail: </label>
+                <input type="email" name="em" id="em" placeholder="Enter email" required>
+            </div><br>
+            <div>
+                <label for="pass">Password: </label>
+                <input type="password" name="pass" id="pass" placeholder="Enter password">
+            </div><br>
+            <div>
+                <label for="ph">Phone Number: </label>
+                <input type="text" name="country code"  value="+91" size="1">
+                <input type="number" name="ph" id="ph" placeholder="Enter phone number">
+            </div><br>
+            <div>
+                <label for="gen">Gender: </label>
+                <input type="radio" name="gen" id="gen">Male
+                <input type="radio" name="gen" id="gen">Female
+                <input type="radio" name="gen" id="gen">Other
+            </div><br>
+            <div>
+                <label fot="dob">Date of Birth: </label>
+                <input type="date" name="dob" id="dob">
+            </div><br>
+            <div>
+                <label for="lan">Languages: </label>
+                <input type="checkbox" name="hin" id="lan" checked>Hindi
+                <input type="checkbox" name="eng" id="lan">English
+                <input type="checkbox" name="tam" id="lan">Tamil
+                <input type="checkbox" name="tel" id="lan">Telugu
+            </div><br>
+            <div>
+                <label for="add">Address: </label><br>
+                <textarea name="add" id="add" cols="30" rows="5"></textarea>
+            </div><br>
+            <div>
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset">
+            </div>
+        </fieldset>
+    </form>
+</body>
+</html>
