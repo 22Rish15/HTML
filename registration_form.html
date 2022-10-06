@@ -5,11 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Registration Form</title>
+
+    <style>
+        body{
+            background-color: bisque;
+        }
+        .form{
+            color: brown;
+            font-weight: bold;
+            font-size: 40px;
+        }
+    </style>
 </head>
 <body>
     <form action="">
         <fieldset>
-            <legend><b>Registration Form</b></legend><br>
+            <legend class="form">Registration Form</legend><br>
             <div>
                 <label for="name">Name: </label>
                 <select>
@@ -21,7 +32,7 @@
                 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
                 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
                 <label for="img">Profile pic: </label>
-                <input type="file" name="img" id="img">
+                <input type="file" name="img" id="img" >
             </div><br>
             <div>
                 <label for="em">E-mail: </label>
@@ -43,7 +54,7 @@
                 <input type="radio" name="gen" id="gen">Other
             </div><br>
             <div>
-                <label fot="dob">Date of Birth: </label>
+                <label for="dob">Date of Birth: </label>
                 <input type="date" name="dob" id="dob">
             </div><br>
             <div>
