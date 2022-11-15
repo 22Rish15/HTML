@@ -1,0 +1,31 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="country.css">
+    <title>Country Name</title>
+</head>
+<body>
+    <p
+    >Country Name: </p>
+    <form action="" >
+    <select name="country" onchange="capital(this)">
+        <option value="0">---Select---</option>
+        <option value="New Delhi">India</option>
+        <option value="Washington, DC">US</option>
+        <option value="Moscow">Russia</option>
+        <option value="Kathmandu">Nepal</option>
+        <option value="Beijing">China</option>
+    </select>
+    </form>
+    <h1 id="cap"></h1>
+
+    <script>
+        function capital(dropDown){
+            var cap = dropDown.options[dropDown.selectedIndex].value;
+            document.getElementById('cap').innerHTML = cap
+        }
+    </script>
+</body>
+</html>

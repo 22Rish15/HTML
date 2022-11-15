@@ -1,0 +1,30 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hide and Show</title>
+</head>
+<body>
+    <p>Click the button to Hide or Show the text.</p>
+    <h1>Agra</h1>
+    <div id="text">
+        Agra is a city on the banks of the Yamuna river in the Indian state of Uttar Pradesh, about 230 kilometres south-east of the 
+        national capital New Delhi and 330 km west of the state capital Lucknow.
+    </div>
+
+<script>
+function myFunction1() {
+  var x = document.getElementById("text");
+    x.style.display = "none";
+}
+function myFunction2() {
+    var x = document.getElementById("text");
+      x.style.display = "block";
+  }
+</script>
+    
+    <button onclick="myFunction1()">Hide</button>
+    <button onclick="myFunction2()">Show</button>
+</body>
+</html>

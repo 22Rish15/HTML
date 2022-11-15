@@ -1,0 +1,12 @@
+#up{
+    text-align: center;
+    border: 2px solid rebeccapurple;
+    
+}
+
+#down{
+    text-align: center;
+    border:10px solid royalblue;
+    margin: 30px 30px 50px 100px;  /*top right bottom left */
+    padding-top: 20px;
+}

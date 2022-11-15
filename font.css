@@ -1,0 +1,16 @@
+body{
+    font-family:'Gill Sans';
+}
+
+h1{
+    font-family: 'Rubik Bubbles';
+    text-align: center;
+    font-size: 3em;
+}
+
+.stuff{
+    font-family: 'Moo Lah Lah';
+    font-size: 48px;
+    font-weight: bold;
+    font-style:italic;
+}
